@@ -1,0 +1,12 @@
+13:52:22.316 DEBUG akka://ENSIME/user/ensime-main/tcp-server/con1/3 o.e.s.RequestHandler - received handled message StringResponse(package abc
+
+object CrashIt extends App {
+  Seq(1, 2).foreach { i ⇒
+  }
+}
+) in state receive
+13:52:23.035 ERROR akka://ENSIME/user/ensime-main/tcp-server/con1 o.e.s.t.TCPConnectionActor - Error seen during message processing, closing client connection
+org.parboiled.errors.ParsingException: Invalid :
+Unexpected end of input, expected Digits, Frac, Exp, Whitespace, Sexp or ) (line 7, pos 6):
+")) 4
+     ^
