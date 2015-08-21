@@ -1,0 +1,24 @@
+(
+ :root-dir "/home/mp/tmp/ensime-crash-unicode"
+ :cache-dir "/home/mp/tmp/ensime-crash-unicode/.ensime_cache"
+ :name "ensime-crash-unicode"
+ :java-home "/usr/lib/jvm/java-1.8.0-openjdk"
+ :java-flags ("-Xms512M" "-Xmx1536M" "-Xss1M" "-XX:+CMSClassUnloadingEnabled")
+ :reference-source-roots ("/usr/lib/jvm/java-1.8.0-openjdk/src.zip")
+ :scala-version "2.11.7"
+ :compiler-args nil
+ :formatting-prefs (:placeScaladocAsterisksBeneathSecondAsterisk t :spaceInsideParentheses nil :indentPackageBlocks t :alignSingleLineCaseStatements.maxArrowIndent 40 :indentWithTabs nil :spaceInsideBrackets nil :compactStringConcatenation nil :spaceBeforeColon nil :formatXml t :compactControlReadability nil :spacesWithinPatternBinders t :indentSpaces 2 :indentLocalDefs nil :multilineScaladocCommentsStartOnFirstLine nil :preserveSpaceBeforeArguments nil :alignSingleLineCaseStatements t :doubleIndentClassDeclaration t :rewriteArrowSymbols t)
+ :subprojects ((
+   :name "ensime-crash-unicode"
+   :module-name "ensime-crash-unicode"
+   :source-roots ("/home/mp/tmp/ensime-crash-unicode/src/main/scala" "/home/mp/tmp/ensime-crash-unicode/src/main/java" "/home/mp/tmp/ensime-crash-unicode/src/main/scala-2.11" "/home/mp/tmp/ensime-crash-unicode/src/test/scala" "/home/mp/tmp/ensime-crash-unicode/src/test/java" "/home/mp/tmp/ensime-crash-unicode/src/test/scala-2.11")
+   :target "/home/mp/tmp/ensime-crash-unicode/target/scala-2.11/classes"
+   :test-targets ("/home/mp/tmp/ensime-crash-unicode/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/home/mp/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/home/mp/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.7-javadoc.jar" "/home/mp/tmp/ensime-crash-unicode/target/scala-2.11/ensime-crash_2.11-1.0.0-SNAPSHOT-javadoc.jar")
+   :reference-source-roots ("/home/mp/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar")))
+ 
+)

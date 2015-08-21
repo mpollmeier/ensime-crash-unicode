@@ -14,4 +14,4 @@ ctags
 .idea_modules
 *.swp
 .tags
-.ensime*
+.ensime_cache
